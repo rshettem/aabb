@@ -4,8 +4,7 @@ public class Test {
 
 	private int empId;
 	private String empName;
-	
-	private String empDept;
+	private double empSal;
 
 	public int getEmpId() {
 		return empId;
@@ -23,18 +22,21 @@ public class Test {
 		this.empName = empName;
 	}
 
-	public String getEmpDept() {
-		return empDept;
+	public double getEmpSal() {
+		return empSal;
 	}
 
-	public void setEmpDept(String empDept) {
-		this.empDept = empDept;
+	public void setEmpSal(double empSal) {
+		this.empSal = empSal;
 	}
 
 	@Override
 	public String toString() {
 		return "Test [empId=" + empId + ", empName=" + empName + ", empDept=" + empDept + "]";
 	}
+
+	
+	
 	
 	
 }
