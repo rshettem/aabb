@@ -1,5 +1,5 @@
 package aabb;
 
 public enum abcd {
-A,V,C
+A,V,C,D
 }
